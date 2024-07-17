@@ -1,12 +1,135 @@
 /* Fonts from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Inter:wght@100..900&display=swap');
 
+/* Universal styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Shared style */
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400px;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+  font-variation-settings:"slnt" 0;
 }
+
+/* Body Styles */
+body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+/* Header styles */
+header{
+    background: linear-gradient(180deg, #111 0%, rgba(119, 119, 119, 0.00) 100%);
+    padding: 55px 190px 75px 190px;
+}
+
+/* Navbar Styles */
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+.navbar_container h4{
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-style: italic;
+    font-weight: 800;  
+}
+.navbar_container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 47px;
+    padding: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 39px;
+}
+.navbar_container ul li{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+.navbar_container ul li:first-child{
+    border-radius: 46px;
+    background: #E6533C;
+    padding: 8px 20px;
+    font-weight: 600;
+}
+.navbar_container ul li:last-child{
+    margin-right: 20px;
+}
+
+/* Banner Section Styles */
+.banner_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner_container .banner_left_container{
+    max-width: 520px;
+}
+.banner_container .banner_left_container h1{
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 28px;
+}
+.banner_left_container p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 28px;
+}
+.banner_left_container .header_btn{
+    display: flex;
+    justify-content: flex-start;
+    gap: 14px;
+}
+.header_btn .header_btn_left{
+    background: #E6533C;
+    border: none;
+    border-radius: 42px;
+    padding: 16px 40px;
+    width: 224px;
+}
+.header_btn .header_btn_left a{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.header_btn .header_btn_right{
+    background-color: #111;
+    border: 1px solid #FFF;
+    border-radius: 42px;
+    padding: 16px 40px;
+    width: 224px;
+}
+.header_btn .header_btn_right a{
+    color:white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+
+
+
