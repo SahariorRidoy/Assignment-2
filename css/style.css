@@ -46,14 +46,16 @@ header {
   align-items: center;
   margin: 0 auto;
   margin-bottom: 32px;
-  max-width: 1060px ;
+  max-width: 1060px;
 }
+
 .navbar_container h4 {
   color: #e6533c;
   font-size: 2.25rem;
   font-style: italic;
   font-weight: 800;
 }
+
 .navbar_container ul {
   display: flex;
   justify-content: space-between;
@@ -63,17 +65,20 @@ header {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
 }
+
 .navbar_container ul li {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 120%;
 }
+
 .navbar_container ul li:first-child {
   border-radius: 46px;
   background: #e6533c;
   padding: 8px 20px;
   font-weight: 600;
 }
+
 .navbar_container ul li:last-child {
   margin-right: 20px;
 }
@@ -83,18 +88,21 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1060px ;
+  max-width: 1060px;
   margin: 0 auto;
 }
+
 .banner_container .banner_left_container {
   max-width: 520px;
 }
+
 .banner_container .banner_left_container h1 {
   font-size: 4.8rem;
   font-weight: 900;
   line-height: 120%;
   margin-bottom: 28px;
 }
+
 .banner_left_container p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
@@ -103,11 +111,13 @@ header {
   letter-spacing: 0.5px;
   margin-bottom: 28px;
 }
+
 .banner_left_container .header_btn {
   display: flex;
   justify-content: flex-start;
   gap: 14px;
 }
+
 .header_btn .header_btn_left {
   background: #e6533c;
   border: none;
@@ -115,12 +125,14 @@ header {
   padding: 16px 40px;
   width: 224px;
 }
+
 .header_btn .header_btn_left a {
   color: #fff;
-  font-size: 18px;
+  font-size: 1.15rem;
   font-weight: 600;
   line-height: 22px;
 }
+
 .header_btn .header_btn_right {
   background-color: #111;
   border: 1px solid #fff;
@@ -128,6 +140,7 @@ header {
   padding: 16px 40px;
   width: 224px;
 }
+
 .header_btn .header_btn_right a {
   color: white;
   font-size: 18px;
@@ -138,6 +151,7 @@ header {
 .banner_right_container {
   position: relative;
 }
+
 /* Blur content styles */
 .blur_video_tut {
   display: flex;
@@ -153,6 +167,7 @@ header {
   left: -113px;
   bottom: 63px;
 }
+
 .blur_video_tut h5 {
   color: #fafaf9;
   font-size: 1.5rem;
@@ -161,6 +176,7 @@ header {
   letter-spacing: 0.3px;
   margin-bottom: 8px;
 }
+
 .blur_video_tut p {
   color: rgba(239, 237, 232, 0.65);
   font-size: 1rem;
@@ -168,6 +184,7 @@ header {
   line-height: 24px;
   letter-spacing: 0.5px;
 }
+
 .blur_workout_vid {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
@@ -179,6 +196,7 @@ header {
   top: 125px;
   right: -74px;
 }
+
 .blur_workout_vid h5 {
   color: #fff;
   font-size: 2.5rem;
@@ -187,6 +205,7 @@ header {
   letter-spacing: 1px;
   margin-bottom: 5px;
 }
+
 .blur_workout_vid p {
   color: rgba(255, 255, 255, 0.65);
   font-size: 0.8rem;
@@ -194,8 +213,9 @@ header {
   line-height: 20px;
   letter-spacing: 1px;
 }
+
 /* Main */
-main{
+main {
   padding: 0px 190px 0px 190px;
 }
 
@@ -206,9 +226,11 @@ main{
   max-width: 1060px;
   margin: 0 auto;
 }
+
 .habit_top {
   margin-bottom: 58px;
 }
+
 .habit_top_title {
   font-size: 3rem;
   font-weight: 900;
@@ -216,6 +238,7 @@ main{
   text-align: center;
   margin-bottom: 8px;
 }
+
 .habit_top_paragraph {
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
@@ -226,10 +249,10 @@ main{
   margin: 0 auto;
   max-width: 671px;
 }
+
 .round_images {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   gap: 40px;
 }
 
@@ -242,6 +265,7 @@ main{
   letter-spacing: 0.3px;
   max-width: 230px;
 }
+
 .round_images h4 {
   color: #fff;
   font-size: 1.12rem;
@@ -250,59 +274,261 @@ main{
   margin-bottom: 6px;
   margin-top: 26px;
 }
+
 .round_images img {
   border-radius: 50%;
 }
 
 /* Run Extra Section Styles */
-.run_extra_container{
+.run_extra_container {
   margin: 0 auto;
   margin-top: 100px;
-  width: 1060px;
+  max-width: 1060px;
   padding: 30px 32px 29px 54px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 18px;
-background: #222;
-gap: 165px;
+  background: #222;
+  gap: 165px;
 }
-.run_extra_left h2{
+
+.run_extra_left h2 {
   font-size: 3rem;
   font-weight: 900;
   line-height: 120%;
   margin-bottom: 14px;
   max-width: 400px;
 }
-.run_extra_left p{
-  color: rgba(255, 255, 255, 0.50);
-font-size: .87rem;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.3px;
-max-width: 443px;
-margin-bottom: 34px;
+
+.run_extra_left p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  max-width: 443px;
+  margin-bottom: 34px;
 }
-.run_extra_left button{
-border-radius: 42px;
-background: #E6533C;
-width: 224px;
-padding: 16px 40px;
-border: none;
+
+.run_extra_left button {
+  border-radius: 42px;
+  background: #e6533c;
+  width: 224px;
+  padding: 16px 40px;
+  border: none;
 }
-.run_extra_left button a{
-color: #FFF;
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
+
+.run_extra_left button a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+/* Exercises Section Styles
+  .exercises_container{
+    width: 1060px;
+    margin: 0 auto;
+    margin-top: 100px;
   }
+  .exercises_container .exercises_title h2{
+font-size: 3rem;
+font-weight: 900;
+line-height: 120%;
+margin-bottom: 14px;
+  }
+  .exercises_container .exercises_title p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: .87rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    width: 671px;
+    margin-bottom: 58px;
+  }
+ 
+  .exercises_container .exercises_cards img{
+    width: 353px;
+    height: 250px;
+  }
+  .exercises_container .exercises_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  } */
 
+/* Calculator Section Styles */
 
+.calculator_container {
+  width: 1060px;
+  margin: 0 auto;
+  margin-top: 88px;
+  padding: 0 208px 0 196px;
+}
 
+.calculator_container h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 14px;
+}
+.calculator_container p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-bottom: 88px;
+}
 
+/*Calculator Chart and Calculate Styles */
+.chart_container {
+  min-width: 100%;
+  padding: 0;
+  background: #222;
+}
+.chart_details_container {
+  width: 1060px;
+  margin: 0 auto;
+  padding-top: 52px;
+  padding-bottom: 52px;
+}
+.chart_details_container {
+  display: flex;
+}
+.chart_details_container .calculate_left h3 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 52px;
+}
+.chart_details_container table {
+  border-collapse: collapse;
+}
+.chart_details_container table th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
 
+  text-align: left;
+}
+.chart_details_container table th {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 120%;
+  padding: 15px 27px 14px 18px;
+}
+.chart_details_container table td {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 120%;
+  padding: 15px 20px 14px 23px;
+}
 
+.calculate_right {
+  margin-left: 175px;
+  display: flex;
+  flex-direction: column;
+}
+.calculate_right h3 {
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 14px;
+}
+.calculate_right p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  max-width: 555px;
+  margin-bottom: 34px;
+}
+.calculate_right .height_weight {
+  display: flex;
+  gap: 12px;
+}
+.calculate_right .height_weight input {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 12px 40px 12px 20px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+.calculate_right .age_sex {
+  margin-top: 12px;
+  display: flex;
+  gap: 12px;
+}
+.calculate_right .age_sex input,select {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 12px 40px 12px 20px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  min-width: 243px;
+}
 
+.calculate_right .age_sex  select{
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+  padding:12px 20px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  min-width: 256px;
+  cursor: pointer;
+}
+
+.calculate_right .select_activity select {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 12px;
+  min-width: 523px;
+}
+.calculate_right option{
+  color: rgba(255, 255, 255, 0.60);
+font-size: 1rem;
+font-weight: 400;
+line-height: 22px;
+}
+.calculate_right select:focus option{
+  background: grey;
+}
+.calculate_btn{
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 16px 40px;
+  border-radius: 42px;
+background: #E6533C;
+border: none;
+margin-top: 34px;
+}
+.calculate_btn a{
+  color: #fff;
+}
 
 
 
@@ -312,7 +538,7 @@ line-height: 22px;
 /* Responsive for Mobile */
 @media screen and (max-width: 576px) {
   header {
-    padding: 50px 10px;
+    padding: 50px 20px;
   }
 
   .navbar_container {
@@ -322,45 +548,85 @@ line-height: 22px;
     margin-bottom: 50px;
     margin: 0px 0px 50px 20px;
   }
+
   .navbar_container ul {
     display: none;
   }
+
   .banner_container {
     flex-direction: column;
     padding-left: 20px;
     margin: 0px;
     align-items: start;
   }
+
   .banner_left_container {
     max-width: 100%;
   }
+
   .banner_container .banner_left_container h1 {
     font-size: 2rem;
     max-width: 285px;
   }
+
   .banner_left_container p {
-    max-width: 70%;
+    gap: 5px;
   }
-  /* .header_btn{
-        max-width: 80%;
-      } */
+
+  .header_btn {
+    max-width: 100%;
+  }
+
   .header_btn_left,
   .header_btn_right {
     max-width: 169px;
   }
+
   .blur_workout_vid {
     top: 47px;
     right: -30px;
   }
+
   .blur_video_tut {
     bottom: 150px;
     left: 12px;
   }
+
   .habit_container {
-    padding: 0 10px;
+    padding: 0px 5px 0px 5px;
+    padding: 0px;
+    text-align: center;
+    margin: 0 auto;
   }
+
+  main {
+    padding: 0px 20px 0px 20px;
+  }
+
   .round_images {
     flex-direction: column;
-    max-width: 80%;
+    align-items: start;
+    gap: 40px;
+    padding-left: 90px;
+    margin-bottom: 66px;
+  }
+
+  .run_extra_container {
+    padding: 30px 33px 35px 33px;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+    margin-bottom: 66px;
+  }
+
+  .run_extra_container .run_extra_left button {
+    margin: 0 auto;
+    width: 287px;
+    padding: 16px 40px;
+    margin-left: 10px;
+  }
+
+  .run_extra_right img {
+    width: 287px;
   }
 }
