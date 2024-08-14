@@ -530,6 +530,66 @@ margin-top: 34px;
   color: #fff;
 }
 
+/* Teams Section Styles */
+.teams_container{
+  width: 1060px;
+  margin: 0 auto;
+  text-align: center;
+}
+.teams_container .teams_heading h2{
+font-size: 3rem;
+font-weight: 900;
+line-height: 120%;
+  margin-top: 88px;
+  margin-bottom: 14px;
+}
+.teams_container .teams_heading p{
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  max-width: 671px;
+  margin: 0 auto;
+  margin-bottom: 58px;
+}
+.teams_images_container{
+  width: 1060px;
+  margin: 0 auto;
+padding: 20px;
+gap: 20px;
+border-radius: 18px;
+background: rgba(255, 255, 255, 0.10);
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+.teams_images_container img{
+  width: 327px;
+  height: 272px;
+  border-radius: 18px;
+}
+.teams_images_container .img1,.img2,.img3,.img4,.img5,.img6{
+  position: relative;
+}
+.teams_images_container .img_texts{
+  position: absolute;
+  bottom: 16px;
+  left: 19px;
+}
+.teams_images_container .img_texts h4{
+  text-align: start;
+font-size: 1.25rem;
+font-weight: 900;
+line-height: 120%;
+}
+.teams_images_container .img_texts p{
+  text-align: start;
+  color: rgba(255, 255, 255, 0.50);
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 120%;
+}
+
 
 
 
@@ -593,21 +653,18 @@ margin-top: 34px;
   }
 
   .habit_container {
-    padding: 0px 5px 0px 5px;
     padding: 0px;
     text-align: center;
     margin: 0 auto;
   }
 
   main {
-    padding: 0px 20px 0px 20px;
+    padding: 0px 20px;
   }
 
   .round_images {
     flex-direction: column;
-    align-items: start;
-    gap: 40px;
-    padding-left: 90px;
+    align-items: center;
     margin-bottom: 66px;
   }
 
@@ -629,4 +686,89 @@ margin-top: 34px;
   .run_extra_right img {
     width: 287px;
   }
+  .chart_details_container {
+    
+    flex-direction: column;
+    padding-left: 20px;
+}
+.calculate_right {
+  margin-top:42px ;
+  margin-left: 0 ;
+  
+}
+.calculator_container {
+  padding: 0;
+  width: auto;
+}
+.calculator_container h2 {
+  font-size: 2rem;
+}
+.calculator_container p {
+  width: 353px;
+}
+.chart_details_container {
+  width: auto;
+ 
+}
+.chart_details_container .calculate_left h3 {
+  font-size: 1rem;
+}
+.calculate_right h3 {
+  font-size: 1rem;
+}
+.calculate_right p {
+  max-width: 346px;
+}
+.calculate_right .height_weight input {
+  
+  width: 187px;
+}
+.calculate_right .age_sex input, select {
+  min-width: 0;
+  width: 187px;
+}
+.calculate_right .age_sex  select {
+  min-width: 0;
+}
+.calculate_right .select_activity select {
+  min-width: 0;
+  width: 387px;
+}
+.select_activity {
+  display: flex;
+  flex-direction: column;
+}
+.calculate_btn {
+  width: 224px;
+}
+
+.teams_container {
+  width: 310px;
+  margin: 0 auto;
+  padding: 0;
+
+  
+}
+.teams_container .teams_heading h2 {
+  margin: 0;
+  margin: 0 auto;
+  margin-top: 66px;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 14px;
+  
+}
+.teams_container .teams_heading p {
+  margin: 0 ;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.teams_images_container {
+  width: 100%;
+ grid-template-columns: repeat(1, 1fr);
+}
+.teams_images_container img {
+  width: 100%;
+}
+
 }
