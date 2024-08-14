@@ -606,8 +606,78 @@ select {
   line-height: 120%;
 }
 
-/* Footer Section Styles */
+/* Unique Section */
+.unique_container{
+  width: 1060px;
+  margin: 0 auto;
+}
+.unique_container .unique_heading{
+  margin: 0 auto;
+  text-align: center;
+}
+.unique_container .unique_heading h2{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  
+}
+.unique_container .unique_heading p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  max-width: 671px;
+  margin: 0 auto;
+  margin-bottom: 58px;
+}
+.unique_container  .exercises {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.unique_container  .exercises h3{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+.unique_container  .exercises p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+.unique_container  button{
+  border-radius: 42px;
+  background: #e6533c;
+  width: 180px;
+  padding: 16px 40px;
+  border: none;
+}
+.unique_container  button a{
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 22px;
+}
 
+.unique_container  .exercises img{
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+/* Footer Section Styles */
 footer {
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
@@ -883,6 +953,49 @@ footer {
     text-align: left;
     padding-left: 20px;
   }
+
+
+
+  .unique_container {
+    padding-left: 20px;
+    width: 100%;
+}
+.unique_container .unique_heading h2{
+  width: 100%;
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.unique_container .unique_heading p{
+  text-align: left;
+  margin: 0;
+  width: 100%;
+  margin-bottom: 88px;
+}
+.unique_container  .exercises {
+  display: block;
+  width: 100%;
+}
+.unique_container  .exercises h3 {
+  font-size: 2rem;
+}
+.unique_container  .exercises p {
+  width: 90%;
+}
+.unique_container  button {
+  margin-bottom: 30px;
+}
+.unique_container  .exercises img {
+  width: 94%;
+  height: 300px;
+  border-radius: 20px;
+  margin-bottom: 88px;
+}
+
+
+
+
+
 }
 
 
@@ -891,6 +1004,6 @@ footer {
 
 /******************* Medium Devices Responsive *********************/
 
-@media (min-width: 768px) and (max-width: 991.98) { 
-
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  
  }
